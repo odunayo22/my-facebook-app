@@ -1,0 +1,37 @@
+.rightbarFriend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  /* .rightbarUsername{
+            font-weight:500;
+        }*/
+}
+
+.rightbarFriend .rightbarProfileImgContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.rightbarFriend .rightbarProfileImgContainer .rightbarProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.rightbarFriend .rightbarProfileImgContainer .rightbarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+/*# sourceMappingURL=online.css.map */

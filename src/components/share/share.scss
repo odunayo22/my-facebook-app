@@ -1,0 +1,87 @@
+.share{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+   // background-color: red;
+   -webkit-box-shadow: -3px 5px 18px 11px rgba(0,0,0,0.42); 
+box-shadow: -3px 5px 18px 11px rgba(0,0,0,0.42);
+
+.shareWrapper{
+    padding: 10px;
+
+    .shareTop{
+        display: flex;
+
+        .shareProfileImg{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .shareInput{
+            border: none;
+            width: 80%;
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .shareHr{
+        margin: 20px;
+    }
+
+    .shareBottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+
+        .shareOptions{
+            display: flex;
+
+            .shareOption{
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                cursor: pointer;
+
+                .shareIcon{
+                    font-size: 18px;
+                    margin-right: 3px;
+                }
+                .media{
+                    color: chocolate;
+                }
+                .label{
+                    color: green;
+                   
+                }
+                .location{
+                    color: red;
+                }
+                .outline{
+                    color: goldenrod;
+                }
+
+                .shareOptionText{
+                    font-style: 14px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+}
+
+.shareButton{
+    border:none;
+    padding:7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}

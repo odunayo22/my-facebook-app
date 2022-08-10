@@ -1,0 +1,105 @@
+.rightbar {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
+}
+
+.rightbar .rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.rightbar .rightbarWrapper .birthdayContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightbar .rightbarWrapper .birthdayContainer .birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.rightbar .rightbarWrapper .birthdayContainer .birthdayText {
+  font-weight: 300px;
+  font-size: 15px;
+}
+
+.rightbar .rightbarWrapper .rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.rightbar .rightbarWrapper .rightbarTitle {
+  margin-bottom: 20px;
+}
+
+.rightbar .rightbarWrapper .rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.all-side {
+  margin-left: 20px;
+}
+
+.all-side .rightbarTitle {
+  font-size: 18px;
+  font-weight: 1500;
+  margin-bottom: 10px;
+}
+
+.all-side .rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.all-side .rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.all-side .rightbarInfo .rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.all-side .rightbarInfo .rightbarInfoItem .rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.all-side .rightbarInfo .rightbarInfoItem .rightbarInfoValue {
+  font-weight: 300;
+}
+
+.rightbarFollowings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rightbarFollowings .rightbarFollowing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=rightbar.css.map */
