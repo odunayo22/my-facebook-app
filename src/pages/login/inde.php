@@ -2,7 +2,7 @@ import './login.scss';
 
 export default function (){
  return(
-
+    <form action= "login.php" method="post"> 
     <div className='login'>
         <div className="loginWrapper">
             <div className="loginLeft">
@@ -13,6 +13,9 @@ export default function (){
             </div>
             <div className="loginRight">
                 <div className='loginBox'>
+                    <?php if (isset($_GET['error'])) { ?>
+                        <p class="error"><?php echo $_GET['error']; ?></p>
+                        <?php }?>
                     <input placeholder="Email" className="loginInput" />
                     <input placeholder="Password" className="loginInput" />
                     <button className="loginButton">Log In</button>
@@ -27,7 +30,7 @@ export default function (){
         </div>
 
     </div>
-
+    </form>
  )
  
 }
